@@ -1,0 +1,87 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Django migrations
+**/migrations/
+**/migrations/*
+
+# Static files
+staticfiles/
+static/
+assets/
+
+# Media files
+media/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.coverage
+
+# Environments
+.env
+.envrc
+*.env
+*.env.*
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# mypy
+.mypy_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Docker
+docker-compose*.yml
+Dockerfile
+*.dockerignore
+
+# Local .env file (if present)
+.env
+
+# Ignore Django migration files
+**/migrations/__pycache__/
+**/migrations/*.py[cod]
+**/migrations/*.pyc
+
+# Ignore system specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/

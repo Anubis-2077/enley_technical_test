@@ -1,0 +1,15 @@
+<h1>este es el contract list</h1>
+
+
+{% if page_obj.has_previous %}
+    <a href="?page={{ page_obj.previous_page_number }}">Anterior</a>
+{% endif %}
+
+{% for contract in page_obj %}
+    {{ contract.user.name }} <br>
+    {{ contract.start_date }} <br> <br>
+{% endfor %}
+
+{% if page_obj.has_next %}
+    <a href="?page={{ page_obj.next_page_number }}">Siguiente</a>
+{% endif %}
